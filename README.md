@@ -1,5 +1,6 @@
 ##Test React Components with Decorators
 
+**Note** this is a demo, and a poorly written one at that! Just wanted to show off the concept.
 
 ```js
 import React from 'react'
@@ -27,6 +28,7 @@ The goal is to test your components as you write them. Useful for props-only com
 ##Problems:
 
 - Decorator needs to be removed unless testing.
+
 I have an easy fix in my head, a webpack loader that strips it unless running tests. Or, add the decorator as a comment, and strip the comments when testing.
 
 - You have to write the tests still.
